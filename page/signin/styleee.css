@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #e6e9fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: white;
+    width: 550px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.part2 h4{
+    color: #686767;
+}
+
+.part2 input{
+    margin: 5px 0 15px 5px ;
+    width: 350px;
+    padding: 10px;
+    border-bottom: 1px solid #aeaeae ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: 0.5s;
+}
+
+.part2 input:focus-within{
+    border-bottom: 2px solid #134de8;
+    outline: none;
+}
+
+
+
+.part4{
+    display: flex;
+    flex-direction: column;
+}
+
+.part4 button{
+    margin-bottom: 20px;
+    height:40px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#button-1{
+    color: white;
+    background-color: #134de8;
+    border: #134de8;
+}
+
+#button-1:hover{
+    background-color: black;
+    color: #d0d0d0;
+}
+
+#button-2{
+    display: flex; 
+    align-items:center; 
+    justify-content:center;
+    border: 1px solid #d0d0d0;
+    background-color: white;
+}
+
+#button-2:hover{
+    background-color: #d0d0d0;
+}
+
+a{
+    text-decoration: none;
+    color: #134de8;
+}
+
+
+.pic{
+    width: 550px;
+    height: 700px;
+    background-color: #134de8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../img/pictures/Animated\ Shape.svg');
+    background-size: cover;
+}
+
+.pic img{
+    width: 320px;
+}
